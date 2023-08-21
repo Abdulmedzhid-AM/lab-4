@@ -10,45 +10,37 @@
     width: 1140px;
 }
 
-.parent-block-1{
+.parent-block{
     width: 1140px ; 
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .photo-1{ 
     background-size:100%;
      width:360px;
       height:260px; 
-      margin-right: 30px;
     }   
 .photo-2{
     background-size:100%;
      width:360px; 
      height: 260px; 
-     margin-right: 30px;
     }
 .photo-3{
     background-size:100%;
      width:360px;
       height:260px;
-       margin-bottom: 30px;
     }
 
-
-.parent-block-2{
-    width: 1140px;
-     display: flex;
-    }
 .photo-4{
     background-size:100%;
      width:360px;
       height:260px;
-       margin-right: 30px;
     }
 .photo-5{
     background-size:100%; 
     width:360px;
      height:260px;
-      margin-right: 30px;
     }
 .photo-6
 {background-size:100%; 
@@ -68,13 +60,13 @@
      display: flex;
     }
 .content-block-3{
-    width: 520px;
+    width: 545px;
     font-size: 20px;
 }
 
 .photo-7{
     background-size:100%;
-     width: 520px;
-     height: 300px;
-      margin-left: 100px;
+     width: 545px;
+     height: 350px;
+      margin-left: 50px;
     }
