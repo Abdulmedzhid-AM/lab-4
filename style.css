@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+.header{
+    font-family: 'Anton';
+    background: url("D:/Задания/Figma/Figma 3/img/header-bg.jpg") no-repeat center top / cover;
+    padding-top: 57px;
+    padding-bottom: 322px;
+}
+.header a{
+    color: #fff;
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto ;
+}
+.logo{
+    margin-right: 69px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+.menu li a:hover {
+	border-bottom: 1px solid #fff;
+}
+.menu li{
+    margin-right: 40px;
+    list-style-type: none;
+}
+.tel{
+    font-size: 17px;
+    letter-spacing: 1.7px;
+    margin-left: auto;
+}
+.offers{
+    text-transform: uppercase;
+    margin-top: 216px;
+    height: 257px;
+}
+.header-info{
+    font-size: 30px;
+    letter-spacing: 3px;
+    width: 340px;
+    height: 44px;
+    color: #fff;
+
+}
+.header-title{
+    color: #fff;
+    font-size: 100px;
+    font-weight: 400;
+    width: 511px;
+    height: 147px;
+    line-height: 147px;
+    margin-bottom: 19px;
+    margin-top: -40px;
+    margin-left: -3px;
+}
+.btn{
+    display: block;
+    width: 238px;
+    height: 57px;
+    font-size: 17px;
+    letter-spacing: 1.7px;
+    transition: all 0.5s ease;
+    border: 1px solid #fff;
+    text-align:center;
+    line-height: 57px;
+}
+.btn:hover{
+    background: #fff;
+    color: #000;
+}
+section{
+    padding-top: 113px;
+}
+.container h2{
+    font-size: 50px;
+    font-family:'Anton';
+    text-transform: uppercase;
+    font-weight: 400;
+    height: 73px;
+    margin-bottom: 58px;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    height: 243px;
+}
+.left-desc , .right-desc{
+    width: 567px;
+}
+.desc-title{
+    font-size: 25px;
+    font-family: 'Anton';
+}
+.desc-info{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    text-align: justify;
+	line-height: 1.62em;
+}
+.gallery{
+    height: 344px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 84px;
+}
+.gallery img {
+	transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    transform: scale(1.1);
+}
+.footer-info{
+    display: flex;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    margin: 114px 0;
+}
+.footer-info-left{
+    margin-right: 67px;
+}
+.footer-info-left , .footer-info-right{
+    width: 244px;
+    height: 49px;
+}
